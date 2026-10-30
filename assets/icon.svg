@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="42%" r="72%">
+      <stop offset="0" stop-color="#241a2b"/>
+      <stop offset=".55" stop-color="#0d0912"/>
+      <stop offset="1" stop-color="#050408"/>
+    </radialGradient>
+    <radialGradient id="iris" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#ffe8ad"/>
+      <stop offset=".2" stop-color="#dfb56a"/>
+      <stop offset=".55" stop-color="#8d5b27"/>
+      <stop offset="1" stop-color="#1a0f08"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" rx="96" fill="url(#bg)"/>
+  <rect x="16" y="16" width="480" height="480" rx="82" fill="none" stroke="#d9b570" stroke-opacity=".3"/>
+  <g fill="none" stroke="#d6b26e" stroke-linecap="round">
+    <ellipse cx="256" cy="256" rx="176" ry="176" stroke-opacity=".14" stroke-dasharray="1 13"/>
+    <path d="M74 256C130 178 190 140 256 140s126 38 182 116c-56 78-116 116-182 116S130 334 74 256Z" fill="#0b0910" stroke-width="5" stroke-opacity=".95"/>
+    <path d="M102 256c50-64 102-96 154-96s104 32 154 96c-50 64-102 96-154 96s-104-32-154-96Z" fill="#100c12" stroke="#7a5c33" stroke-width="3" stroke-opacity=".9"/>
+    <ellipse cx="256" cy="256" rx="18" ry="58" fill="#050407" stroke="#f3d290" stroke-width="2" stroke-opacity=".55"/>
+  </g>
+  <circle cx="256" cy="256" r="82" fill="url(#iris)"/>
+  <circle cx="228" cy="228" r="9" fill="#fff4d1" opacity=".7"/>
+  <g fill="#d6b26e" opacity=".75">
+    <circle cx="256" cy="62" r="4"/><circle cx="450" cy="256" r="4"/>
+    <circle cx="256" cy="450" r="3"/><circle cx="62" cy="256" r="3"/>
+  </g>
+</svg>

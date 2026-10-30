@@ -1,0 +1,26 @@
+{
+  "name": "THE LISTENER BELOW",
+  "short_name": "Listener",
+  "description": "A gothic memory-eating roguelike. Every technique you repeat becomes a weapon it owns.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#07060a",
+  "theme_color": "#07060a",
+  "categories": ["games", "entertainment"],
+  "icons": [
+    {
+      "src": "./assets/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "./assets/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}

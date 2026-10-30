@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1">
+  <meta name="theme-color" content="#07060a">
+  <meta name="color-scheme" content="dark">
+  <meta name="description" content="THE LISTENER BELOW — a gothic memory-eating roguelike. Every technique you repeat becomes a weapon it owns.">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="The Listener Below">
+  <meta name="mobile-web-app-capable" content="yes">
+  <title>THE LISTENER BELOW</title>
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" href="./assets/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="./assets/icon.svg">
+  <link rel="stylesheet" href="./css/base.css">
+  <link rel="stylesheet" href="./css/screens.css">
+  <link rel="stylesheet" href="./css/combat.css">
+</head>
+<body>
+  <div class="bg" aria-hidden="true">
+    <div class="bg-window"></div>
+    <div class="bg-eye" id="bg-eye"></div>
+    <div class="bg-fog"></div>
+    <div class="bg-floor"></div>
+    <canvas id="ash-canvas"></canvas>
+    <div class="grain"></div>
+    <div class="vignette"></div>
+    <div class="scanlines"></div>
+  </div>
+  <div class="tilt-glow" aria-hidden="true"></div>
+
+  <main id="app" aria-live="polite"></main>
+  <div id="modal-root"></div>
+  <div id="toast-root" aria-live="polite" aria-atomic="false"></div>
+  <div id="banner-root" aria-live="assertive"></div>
+
+  <noscript>
+    <div style="position:fixed;inset:0;display:grid;place-items:center;padding:32px;background:#07060a;color:#eee3ce;font-family:Georgia,serif;text-align:center;z-index:999">
+      <p>THE LISTENER BELOW needs JavaScript. It is already listening through the wall.</p>
+    </div>
+  </noscript>
+
+  <script type="module" src="./js/game.js"></script>
+</body>
+</html>
